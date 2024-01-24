@@ -1,0 +1,10 @@
+a=()
+b=(1)
+c=(1,)
+d=(1,3)
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+d[0]=1
+print(d)
